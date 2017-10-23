@@ -6,3 +6,5 @@ https://dzone.com/articles/remap-robus-java-object-mapping-with-minimal-testing-
 
 Lombok
 https://programmingmitra.blogspot.in/2017/01/Project-Lombok-The-Boilerplate-Code-Extractor.html
+
+https://techblog.bozho.net/custom-audit-log-with-spring-and-hibernate/
