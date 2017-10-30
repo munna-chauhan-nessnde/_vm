@@ -12,3 +12,18 @@ https://techblog.bozho.net/custom-audit-log-with-spring-and-hibernate/
 https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch15.html
 
 http://www.oodlestechnologies.com/blogs/Introduction-to-Javers-And-Its-Integration-To-Spring-Boot
+
+ @JsonCreator
+    public PersonDto(@JsonProperty("id") Integer id,
+                     @JsonProperty("firstName") String firstName,
+                     @JsonProperty("lastName") String lastName,
+                     @JsonProperty("sex") String sex,
+                     @JsonProperty("salary") Integer salary,
+                     @JsonProperty("position") String position) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.sex = sex;
+        this.salary = salary;
+        this.position = position;
+    }
