@@ -27,3 +27,11 @@ http://www.oodlestechnologies.com/blogs/Introduction-to-Javers-And-Its-Integrati
         this.salary = salary;
         this.position = position;
     }
+https://stackoverflow.com/questions/33744875/spring-boot-how-to-log-all-requests-and-responses-with-exceptions-in-single-pl
+
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+management.trace.include=parameters,errors
+endpoints.trace.sensitive=false
+
+Spring Boot does not support logging request and response body. However, it should be fairly easy to get this going. I’d suggest you start with the provided implementation of WebRequestTraceFilter. This is the class that captures the requests and responses for trace logging. You could extend it to capture anything you like.
+Spring Boot autoconfigures a WebRequestTraceFilter bean using the @ConditionalOnMissingBean annotation – see TraceWebFilterAutoConfiguration. That should mean that if you declare your own subclass implementation of WebRequestTraceFilter as a Bean, Spring Boot should pick up your custom implementation instead of the provided one.
