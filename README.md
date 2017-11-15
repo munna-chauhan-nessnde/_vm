@@ -35,3 +35,18 @@ endpoints.trace.sensitive=false
 
 Spring Boot does not support logging request and response body. However, it should be fairly easy to get this going. I’d suggest you start with the provided implementation of WebRequestTraceFilter. This is the class that captures the requests and responses for trace logging. You could extend it to capture anything you like.
 Spring Boot autoconfigures a WebRequestTraceFilter bean using the @ConditionalOnMissingBean annotation – see TraceWebFilterAutoConfiguration. That should mean that if you declare your own subclass implementation of WebRequestTraceFilter as a Bean, Spring Boot should pick up your custom implementation instead of the provided one.
+
+http://www.sedooe.com/2017/08/tracing-requests-and-responses-with-spring-boot-actuator/
+
+try: zipkin
+
+https://github.com/spring-projects/spring-data-examples/tree/master/rest/security
+http
+  .httpBasic().and()
+  .authorizeRequests()
+    .antMatchers(HttpMethod.POST, "/employees").hasRole("ADMIN")
+    .antMatchers(HttpMethod.PUT, "/employees/**").hasRole("ADMIN")
+    .antMatchers(HttpMethod.PATCH, "/employees/**").hasRole("ADMIN");
+    
+    
+    
