@@ -48,5 +48,4 @@ http
     .antMatchers(HttpMethod.PUT, "/employees/**").hasRole("ADMIN")
     .antMatchers(HttpMethod.PATCH, "/employees/**").hasRole("ADMIN");
     
-    
-    
+http://shout.setfive.com/2015/11/02/spring-boot-authentication-with-custom-http-header/
