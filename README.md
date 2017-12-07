@@ -49,3 +49,5 @@ http
     .antMatchers(HttpMethod.PATCH, "/employees/**").hasRole("ADMIN");
     
 http://shout.setfive.com/2015/11/02/spring-boot-authentication-with-custom-http-header/
+
+https://github.com/aelij/azure-content/blob/master/articles/service-bus/service-bus-amqp-java.md
