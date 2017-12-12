@@ -59,3 +59,5 @@ https://www.mkyong.com/spring-boot/spring-boot-file-upload-example-ajax-and-rest
 http://javasampleapproach.com/java-integration/upload-multipartfile-spring-boot
 
 http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/
+
+https://spring.io/guides/gs/uploading-files/
