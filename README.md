@@ -55,3 +55,7 @@ https://github.com/Azure/azure-service-bus/tree/master/samples/Java/qpid-jms-cli
 https://github.com/Azure/azure-service-bus/tree/master/samples/Java/qpid-jms-client/JmsQueueQuickstart
 
 https://www.mkyong.com/spring-boot/spring-boot-file-upload-example-ajax-and-rest/
+
+http://javasampleapproach.com/java-integration/upload-multipartfile-spring-boot
+
+http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/
