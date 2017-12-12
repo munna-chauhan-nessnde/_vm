@@ -53,3 +53,5 @@ http://shout.setfive.com/2015/11/02/spring-boot-authentication-with-custom-http-
 https://github.com/aelij/azure-content/blob/master/articles/service-bus/service-bus-amqp-java.md
 https://github.com/Azure/azure-service-bus/tree/master/samples/Java/qpid-jms-client/JmsTopicQuickstart
 https://github.com/Azure/azure-service-bus/tree/master/samples/Java/qpid-jms-client/JmsQueueQuickstart
+
+https://www.mkyong.com/spring-boot/spring-boot-file-upload-example-ajax-and-rest/
