@@ -66,3 +66,4 @@ http://www.chrisweldon.net/sharepoint/sharepoint-rest-api-authentication-from-ja
 http://blog.ashwani.co.in/blog/2013-07-28/connect-and-access-sharepoint-webservice-from-java/
 not https://blog.ch.atosconsulting.com/interoperability-between-java-and-sharepoint-2013-on-premises/
 https://www.quora.com/How-do-you-upload-download-documents-in-SharePoint-using-Java
+http://www.wave-access.com/public_en/blog/2015/june/23/java-service-integration-with-sharepoint-online-via-rest-api.aspx
