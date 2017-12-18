@@ -61,3 +61,8 @@ http://javasampleapproach.com/java-integration/upload-multipartfile-spring-boot
 http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/
 
 https://spring.io/guides/gs/uploading-files/
+
+http://www.chrisweldon.net/sharepoint/sharepoint-rest-api-authentication-from-java/
+http://blog.ashwani.co.in/blog/2013-07-28/connect-and-access-sharepoint-webservice-from-java/
+not https://blog.ch.atosconsulting.com/interoperability-between-java-and-sharepoint-2013-on-premises/
+https://www.quora.com/How-do-you-upload-download-documents-in-SharePoint-using-Java
