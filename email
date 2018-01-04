@@ -96,3 +96,7 @@ public class EmailService {
 #https://www.quickprogrammingtips.com/spring-boot/how-to-send-email-from-spring-boot-applications.html
 #https://github.com/Azure/azure-service-bus-java/tree/e3d163eac92213d34dce059f3353d2c819d31fbf
 #https://github.com/Azure/azure-service-bus/tree/master/samples
+https://docs.microsoft.com/en-us/rest/api/servicebus/receive-and-delete-message-destructive-read?redirectedfrom=MSDN
+https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/store-sendgrid-java-how-to-send-email.md
+https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/store-sendgrid-java-how-to-send-email-example.md
+
