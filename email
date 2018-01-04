@@ -1,0 +1,98 @@
+# application.yml
+
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: username@gmail.com
+    password: secret
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+    
+    #
+    public class Mail {
+
+    private String from;
+    private String to;
+    private String subject;
+    private String content;
+#
+public class Mail {
+
+    private String from;
+    private String to;
+    private String subject;
+    private String content;
+#
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application implements ApplicationRunner {
+
+    private static Logger log = LoggerFactory.getLogger(Application.class);
+
+    @Autowired
+    private EmailService emailService;
+
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(Application.class, args);
+    }
+
+    @Override
+    public void run(ApplicationArguments applicationArguments) throws Exception {
+        log.info("Spring Mail - Sending Simple Email with JavaMailSender Example");
+
+        Mail mail = new Mail();
+        mail.setFrom("no-reply@memorynotfound.com");
+        mail.setTo("info@memorynotfound.com");
+        mail.setSubject("Sending Simple Email with JavaMailSender Example");
+        mail.setContent("This tutorial demonstrates how to send a simple email using Spring Framework.");
+
+        emailService.sendSimpleMessage(mail);
+    }
+}
+#Another Example
+spring.mail.protocol=smtp
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=gmail id
+spring.mail.password=gmail password
+spring.mail.properties.mail.smtp.auth = true
+spring.mail.properties.mail.smtp.starttls.enable = true
+@Service
+public class EmailService {
+
+    private JavaMailSender javaMailSender;
+
+    @Autowired
+    public EmailService(JavaMailSender javaMailSender) {
+        this.javaMailSender = javaMailSender;
+    }
+
+    public void sendMail(String toEmail, String subject, String message) {
+        SimpleMailMessage mailMessage = new SimpleMailMessage();
+        mailMessage.setTo(toEmail);
+        mailMessage.setSubject(subject);
+        mailMessage.setText(message);
+        mailMessage.setFrom("admin@admin.com");
+        javaMailSender.send(mailMessage);
+    }
+}
+#http://www.baeldung.com/spring-email
+#http://www.opencodez.com/java/java-mail-framework-using-spring-boot.htm
+#https://www.quickprogrammingtips.com/spring-boot/how-to-send-email-from-spring-boot-applications.html
+#https://github.com/Azure/azure-service-bus-java/tree/e3d163eac92213d34dce059f3353d2c819d31fbf
+#https://github.com/Azure/azure-service-bus/tree/master/samples
