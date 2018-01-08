@@ -100,3 +100,10 @@ https://docs.microsoft.com/en-us/rest/api/servicebus/receive-and-delete-message-
 https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/store-sendgrid-java-how-to-send-email.md
 https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/store-sendgrid-java-how-to-send-email-example.md
 
+
+https://stackoverflow.com/questions/38599079/sendgrid-emailing-api-send-email-attachment
+http://krams915.blogspot.in/2012/07/email-with-attachments-via-spring-and_08.html
+http://www.technicalkeeda.com/spring-tutorials/spring-email-velocity-template-example
+https://memorynotfound.com/spring-mail-sending-email-freemarker-html-template-example/
+http://www.thymeleaf.org/doc/articles/springmail.html
+
