@@ -1,0 +1,32 @@
+http://www.istvandevai.com/2018/02/using-oracle-json-functions-via-jpa-and.html
+https://stackoverflow.com/questions/42239697/jpa-criteria-api-with-oracle12c-json-value-function
+
+CriteriaBuilder cb = getCriteria();
+
+cb.equal(cb.function("JSON_VALUE", String.class,
+                    cb.literal("JSON_COLUMN"), cb.literal("$.my.json.property")),
+         "value");
+         
+         
+         public class HibernateInlineExpression extends LiteralExpression<String> {
+
+    public HibernateInlineExpression(CriteriaBuilder criteriaBuilder, String literal) {
+        super((CriteriaBuilderImpl) criteriaBuilder, literal);
+    }
+
+    @Override
+    public String render(RenderingContext renderingContext) {
+        return getLiteral();
+    }
+}
+
+
+cb.equal(cb.function("JSON_VALUE", String.class,
+                    new HibernateInlineExpression(cb, "JSON_COLUMN"),
+                    new HibernateInlineExpression(cb, "'$.my.json.property'")),
+         new LiteralExpression<>((CriteriaBuilderImpl) cb, String.class, "somevalue"));
+         
+ ------------OTHER WAY----------------------------------------------------------------------------      
+         
+         @Formula("JSON_VALUE(JSON_COLUMN, '$.my.json.property')")
+private String myProperty;
