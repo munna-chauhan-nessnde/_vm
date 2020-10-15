@@ -1,0 +1,3109 @@
+{
+	"AttributeDefinitionDataObj": {
+		"attributeDefinitionId": {
+			"name": "str"
+		},
+		"attributeType": "str",
+		"builtIn": true,
+		"configurableValues": [
+			{
+				"attributeValueId": {
+					"name": "str"
+				},
+				"deprecated": true,
+				"displayName": "str",
+				"issueKindList": [
+					"str"
+				]
+			}
+		],
+		"defaultValue": "str",
+		"description": "str",
+		"displayDescription": "str",
+		"displayName": "str",
+		"showInTriage": true
+	},
+	"AttributeDefinitionIdDataObj": {
+		"name": "str"
+	},
+	"AttributeDefinitionSpecDataObj": {
+		"attributeName": "str",
+		"attributeType": "str",
+		"attributeValueChangeSpec": {
+			"attributeValueIds": [
+				{
+					"name": "str"
+				}
+			],
+			"attributeValues": [
+				{
+					"deprecated": true,
+					"name": "str"
+				}
+			]
+		},
+		"defaultValue": "str",
+		"description": "str",
+		"showInTriage": true
+	},
+	"AttributeValueChangeSpecDataObj": {
+		"attributeValueIds": [
+			{
+				"name": "str"
+			}
+		],
+		"attributeValues": [
+			{
+				"deprecated": true,
+				"name": "str"
+			}
+		]
+	},
+	"AttributeValueDataObj": {
+		"attributeValueId": {
+			"name": "str"
+		},
+		"deprecated": true,
+		"displayName": "str",
+		"issueKindList": [
+			"str"
+		]
+	},
+	"AttributeValueIdDataObj": {
+		"name": "str"
+	},
+	"AttributeValueSpecDataObj": {
+		"deprecated": true,
+		"name": "str"
+	},
+	"BackupConfigurationDataObj": {
+		"backupLocation": "str",
+		"backupTime": "str",
+		"fridayEnabled": true,
+		"mondayEnabled": true,
+		"saturdayEnabled": true,
+		"sundayEnabled": true,
+		"thursdayEnabled": true,
+		"tuesdayEnabled": true,
+		"wednesdayEnabled": true
+	},
+	"CommitStateDataObj": {
+		"currentCommitCount": 0,
+		"isAcceptingNewCommits": true
+	},
+	"ComponentDataObj": {
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"componentId": {
+			"name": "str"
+		},
+		"subscribers": [
+			"str"
+		]
+	},
+	"ComponentDefectRuleDataObj": {
+		"componentId": {
+			"name": "str"
+		},
+		"defaultOwner": "str"
+	},
+	"ComponentIdDataObj": {
+		"name": "str"
+	},
+	"ComponentMapDataObj": {
+		"componentMapId": {
+			"name": "str"
+		},
+		"componentPathRules": [
+			{
+				"componentId": {
+					"name": "str"
+				},
+				"pathPattern": "str"
+			}
+		],
+		"components": [
+			{
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"componentId": {
+					"name": "str"
+				},
+				"subscribers": [
+					"str"
+				]
+			}
+		],
+		"defectRules": [
+			{
+				"componentId": {
+					"name": "str"
+				},
+				"defaultOwner": "str"
+			}
+		],
+		"description": "str"
+	},
+	"ComponentMapFilterSpecDataObj": {
+		"namePattern": "str"
+	},
+	"ComponentMapIdDataObj": {
+		"name": "str"
+	},
+	"ComponentMapSpecDataObj": {
+		"componentMapName": "str",
+		"componentPathRules": [
+			{
+				"componentId": {
+					"name": "str"
+				},
+				"pathPattern": "str"
+			}
+		],
+		"components": [
+			{
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"componentId": {
+					"name": "str"
+				},
+				"subscribers": [
+					"str"
+				]
+			}
+		],
+		"defectRules": [
+			{
+				"componentId": {
+					"name": "str"
+				},
+				"defaultOwner": "str"
+			}
+		],
+		"description": "str",
+		"forceDeleteComponents": true
+	},
+	"ComponentPathRuleDataObj": {
+		"componentId": {
+			"name": "str"
+		},
+		"pathPattern": "str"
+	},
+	"ConfigurationDataObj": {
+		"commitPort": 0,
+		"dbDialect": "str",
+		"dbDriver": "str",
+		"issueExportUrl": "str",
+		"maindbName": "str",
+		"maindbUrl": "str",
+		"maindbUser": "str"
+	},
+	"CopyStream": {
+		"projectId": {
+			"name": "str"
+		},
+		"sourceStreamId": {
+			"name": "str"
+		}
+	},
+	"CopyStreamResponse": {
+		"_return": {
+			"autoDeleteOnExpiry": true,
+			"componentMapId": {
+				"name": "str"
+			},
+			"description": "str",
+			"id": {
+				"name": "str"
+			},
+			"language": "str",
+			"outdated": true,
+			"primaryProjectId": {
+				"name": "str"
+			},
+			"triageStoreId": {
+				"name": "str"
+			},
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"analysisVersionOverride": "str",
+			"summaryExpirationDays": 0,
+			"pluginVersionOverride": "str",
+			"versionMismatchMessage": "str",
+			"enableDesktopAnalysis": true,
+			"ownerAssignmentOption": "str"
+		}
+	},
+	"CovRemoteServiceException": {
+		"errorCode": 0,
+		"message": "str"
+	},
+	"CovRemoteServiceException_Exception": {
+		"faultInfo": {
+			"errorCode": 0,
+			"message": "str"
+		}
+	},
+	"CreateAttribute": {
+		"attributeDefinitionSpec": {
+			"attributeName": "str",
+			"attributeType": "str",
+			"attributeValueChangeSpec": {
+				"attributeValueIds": [
+					{
+						"name": "str"
+					}
+				],
+				"attributeValues": [
+					{
+						"deprecated": true,
+						"name": "str"
+					}
+				]
+			},
+			"defaultValue": "str",
+			"description": "str",
+			"showInTriage": true
+		}
+	},
+	"CreateAttributeResponse": {},
+	"CreateComponentMap": {
+		"componentMapSpec": {
+			"componentMapName": "str",
+			"componentPathRules": [
+				{
+					"componentId": {
+						"name": "str"
+					},
+					"pathPattern": "str"
+				}
+			],
+			"components": [
+				{
+					"roleAssignments": [
+						{
+							"groupId": {
+								"displayName": "str",
+								"domain": {
+									"name": "str"
+								},
+								"name": "str"
+							},
+							"roleAssignmentType": "str",
+							"roleId": {
+								"name": "str"
+							},
+							"type": "str",
+							"username": "str"
+						}
+					],
+					"componentId": {
+						"name": "str"
+					},
+					"subscribers": [
+						"str"
+					]
+				}
+			],
+			"defectRules": [
+				{
+					"componentId": {
+						"name": "str"
+					},
+					"defaultOwner": "str"
+				}
+			],
+			"description": "str",
+			"forceDeleteComponents": true
+		}
+	},
+	"CreateComponentMapResponse": {},
+	"CreateGroup": {
+		"groupSpec": {
+			"clearRoles": true,
+			"domain": {
+				"name": "str"
+			},
+			"local": true,
+			"name": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"syncEnabled": true
+		}
+	},
+	"CreateGroupResponse": {},
+	"CreateLdapConfiguration": {
+		"ldapConfigurationSpec": {
+			"anonymousBind": true,
+			"baseDN": "str",
+			"bindName": "str",
+			"bindPassword": "str",
+			"displayName": "str",
+			"groupFilter": "str",
+			"groupFullName": true,
+			"groupMember": "str",
+			"groupName": "str",
+			"groupObjectClass": "str",
+			"groupSearchBase": "str",
+			"primary": true,
+			"secureConnection": true,
+			"serverDomain": "str",
+			"serverPort": 0,
+			"tlsEnabled": true,
+			"userEmail": "str",
+			"userFirstName": "str",
+			"userLastName": "str",
+			"userName": "str",
+			"userObjectClass": "str",
+			"userSearchBase": "str"
+		}
+	},
+	"CreateLdapConfigurationResponse": {},
+	"CreateProject": {
+		"projectSpec": {
+			"streams": [
+				{
+					"name": "str"
+				}
+			],
+			"streamLinks": [
+				{
+					"name": "str"
+				}
+			],
+			"description": "str",
+			"name": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			]
+		}
+	},
+	"CreateProjectResponse": {},
+	"CreateRole": {
+		"roleSpec": {
+			"deletable": true,
+			"description": "str",
+			"editable": true,
+			"name": "str",
+			"permissionDataObjs": [
+				{
+					"permissionValue": "str"
+				}
+			]
+		}
+	},
+	"CreateRoleResponse": {},
+	"CreateStream": {
+		"streamSpec": {
+			"allowCommitWithoutPassword": true,
+			"analysisVersionOverride": "str",
+			"autoDeleteOnExpiry": true,
+			"componentMapId": {
+				"name": "str"
+			},
+			"description": "str",
+			"enableDesktopAnalysis": true,
+			"language": "str",
+			"name": "str",
+			"outdated": true,
+			"ownerAssignmentOption": "str",
+			"pluginVersionOverride": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"summaryExpirationDays": 0,
+			"triageStoreId": {
+				"name": "str"
+			},
+			"versionMismatchMessage": "str"
+		}
+	},
+	"CreateStreamInProject": {
+		"projectId": {
+			"name": "str"
+		},
+		"streamSpec": {
+			"allowCommitWithoutPassword": true,
+			"analysisVersionOverride": "str",
+			"autoDeleteOnExpiry": true,
+			"componentMapId": {
+				"name": "str"
+			},
+			"description": "str",
+			"enableDesktopAnalysis": true,
+			"language": "str",
+			"name": "str",
+			"outdated": true,
+			"ownerAssignmentOption": "str",
+			"pluginVersionOverride": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"summaryExpirationDays": 0,
+			"triageStoreId": {
+				"name": "str"
+			},
+			"versionMismatchMessage": "str"
+		}
+	},
+	"CreateStreamInProjectResponse": {},
+	"CreateStreamResponse": {},
+	"CreateTriageStore": {
+		"triageStoreSpec": {
+			"description": "str",
+			"name": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			]
+		}
+	},
+	"CreateTriageStoreResponse": {},
+	"CreateUser": {
+		"userSpec": {
+			"clearRoles": true,
+			"disabled": true,
+			"domain": {
+				"name": "str"
+			},
+			"email": "str",
+			"familyName": "str",
+			"givenName": "str",
+			"groupNames": [
+				{
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				}
+			],
+			"local": true,
+			"locale": "str",
+			"locked": true,
+			"password": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"username": "str"
+		}
+	},
+	"CreateUserResponse": {},
+	"DeleteAttribute": {
+		"attributeDefinitionId": {
+			"name": "str"
+		}
+	},
+	"DeleteAttributeResponse": {},
+	"DeleteComponentMap": {
+		"componentMapId": {
+			"name": "str"
+		}
+	},
+	"DeleteComponentMapResponse": {},
+	"DeleteGroup": {
+		"groupId": {
+			"displayName": "str",
+			"domain": {
+				"name": "str"
+			},
+			"name": "str"
+		}
+	},
+	"DeleteGroupResponse": {},
+	"DeleteLdapConfiguration": {
+		"serverDomainIdDataObj": {
+			"name": "str"
+		}
+	},
+	"DeleteLdapConfigurationResponse": {},
+	"DeleteProject": {
+		"projectId": {
+			"name": "str"
+		}
+	},
+	"DeleteProjectResponse": {},
+	"DeleteRole": {
+		"roleId": {
+			"name": "str"
+		}
+	},
+	"DeleteRoleResponse": {},
+	"DeleteSnapshot": {
+		"snapshotId": [
+			{
+				"id": 0
+			}
+		]
+	},
+	"DeleteSnapshotJobInfoDataObj": {
+		"snapshotId": 0,
+		"deleteSnapshotJobStatus": "QUEUED"
+	},
+	"DeleteSnapshotResponse": {},
+	"DeleteStream": {
+		"streamId": {
+			"name": "str"
+		},
+		"onlyIfEmpty": true
+	},
+	"DeleteStreamResponse": {},
+	"DeleteTriageStore": {
+		"triageStoreId": {
+			"name": "str"
+		}
+	},
+	"DeleteTriageStoreResponse": {},
+	"DeleteUser": {
+		"username": "str"
+	},
+	"DeleteUserResponse": {},
+	"ExecuteNotification": {
+		"viewname": "str"
+	},
+	"ExecuteNotificationResponse": {},
+	"FeatureUpdateTimeDataObj": {
+		"featureName": "str",
+		"lastUpdateDate": "XMLGregorianCalendar"
+	},
+	"GetAllLdapConfigurations": {},
+	"GetAllLdapConfigurationsResponse": {
+		"_return": [
+			{
+				"anonymousBind": true,
+				"baseDN": "str",
+				"bindName": "str",
+				"bindPassword": "str",
+				"groupFilter": "str",
+				"groupFullName": true,
+				"groupMember": "str",
+				"groupName": "str",
+				"groupObjectClass": "str",
+				"groupSearchBase": "str",
+				"primary": true,
+				"secureConnection": true,
+				"serverDomain": "str",
+				"serverDomainIdDataObj": {
+					"name": "str"
+				},
+				"serverPort": 0,
+				"tlsEnabled": true,
+				"userEmail": "str",
+				"userFirstName": "str",
+				"userLastName": "str",
+				"userName": "str",
+				"userObjectClass": "str",
+				"userSearchBase": "str"
+			}
+		]
+	},
+	"GetAllPermissions": {},
+	"GetAllPermissionsResponse": {
+		"_return": [
+			{
+				"permissionValue": "str"
+			}
+		]
+	},
+	"GetAllRoles": {},
+	"GetAllRolesResponse": {
+		"_return": [
+			{
+				"deletable": true,
+				"description": "str",
+				"editable": true,
+				"permissionDataObjs": [
+					{
+						"permissionValue": "str"
+					}
+				],
+				"roleId": {
+					"name": "str"
+				}
+			}
+		]
+	},
+	"GetArchitectureAnalysisConfiguration": {},
+	"GetArchitectureAnalysisConfigurationResponse": {
+		"_return": "str"
+	},
+	"GetAttribute": {
+		"attributeDefinitionId": {
+			"name": "str"
+		}
+	},
+	"GetAttributeResponse": {
+		"_return": {
+			"attributeDefinitionId": {
+				"name": "str"
+			},
+			"attributeType": "str",
+			"builtIn": true,
+			"configurableValues": [
+				{
+					"attributeValueId": {
+						"name": "str"
+					},
+					"deprecated": true,
+					"displayName": "str",
+					"issueKindList": [
+						"str"
+					]
+				}
+			],
+			"defaultValue": "str",
+			"description": "str",
+			"displayDescription": "str",
+			"displayName": "str",
+			"showInTriage": true
+		}
+	},
+	"GetAttributes": {},
+	"GetAttributesResponse": {
+		"_return": [
+			{
+				"attributeDefinitionId": {
+					"name": "str"
+				},
+				"attributeType": "str",
+				"builtIn": true,
+				"configurableValues": [
+					{
+						"attributeValueId": {
+							"name": "str"
+						},
+						"deprecated": true,
+						"displayName": "str",
+						"issueKindList": [
+							"str"
+						]
+					}
+				],
+				"defaultValue": "str",
+				"description": "str",
+				"displayDescription": "str",
+				"displayName": "str",
+				"showInTriage": true
+			}
+		]
+	},
+	"GetBackupConfiguration": {},
+	"GetBackupConfigurationResponse": {
+		"_return": {
+			"backupLocation": "str",
+			"backupTime": "str",
+			"fridayEnabled": true,
+			"mondayEnabled": true,
+			"saturdayEnabled": true,
+			"sundayEnabled": true,
+			"thursdayEnabled": true,
+			"tuesdayEnabled": true,
+			"wednesdayEnabled": true
+		}
+	},
+	"GetCategoryNames": {},
+	"GetCategoryNamesResponse": {
+		"_return": [
+			{
+				"displayName": "str",
+				"name": "str"
+			}
+		]
+	},
+	"GetCheckerNames": {},
+	"GetCheckerNamesResponse": {
+		"_return": [
+			"str"
+		]
+	},
+	"GetCommitState": {},
+	"GetCommitStateResponse": {
+		"_return": {
+			"currentCommitCount": 0,
+			"isAcceptingNewCommits": true
+		}
+	},
+	"GetComponent": {
+		"componentId": {
+			"name": "str"
+		}
+	},
+	"GetComponentMaps": {
+		"filterSpec": {
+			"namePattern": "str"
+		}
+	},
+	"GetComponentMapsResponse": {
+		"_return": [
+			{
+				"componentMapId": {
+					"name": "str"
+				},
+				"componentPathRules": [
+					{
+						"componentId": {
+							"name": "str"
+						},
+						"pathPattern": "str"
+					}
+				],
+				"components": [
+					{
+						"roleAssignments": [
+							{
+								"groupId": {
+									"displayName": "str",
+									"domain": {
+										"name": "str"
+									},
+									"name": "str"
+								},
+								"roleAssignmentType": "str",
+								"roleId": {
+									"name": "str"
+								},
+								"type": "str",
+								"username": "str"
+							}
+						],
+						"componentId": {
+							"name": "str"
+						},
+						"subscribers": [
+							"str"
+						]
+					}
+				],
+				"defectRules": [
+					{
+						"componentId": {
+							"name": "str"
+						},
+						"defaultOwner": "str"
+					}
+				],
+				"description": "str"
+			}
+		]
+	},
+	"GetComponentResponse": {
+		"_return": {
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"componentId": {
+				"name": "str"
+			},
+			"subscribers": [
+				"str"
+			]
+		}
+	},
+	"GetDefectStatuses": {},
+	"GetDeleteSnapshotJobInfo": {
+		"snapshotId": [
+			{
+				"id": 0
+			}
+		]
+	},
+	"GetDeleteSnapshotJobInfoResponse": {
+		"_return": [
+			{
+				"snapshotId": 0,
+				"status": "str"
+			}
+		]
+	},
+	"GetDeveloperStreamsProjects": {
+		"filterSpec": {
+			"descriptionPattern": "str",
+			"includeChildren": true,
+			"includeStreams": true,
+			"namePattern": "str"
+		}
+	},
+	"GetDeveloperStreamsProjectsResponse": {
+		"_return": [
+			{
+				"streams": [
+					{
+						"autoDeleteOnExpiry": true,
+						"componentMapId": {
+							"name": "str"
+						},
+						"description": "str",
+						"id": {
+							"name": "str"
+						},
+						"language": "str",
+						"outdated": true,
+						"primaryProjectId": {
+							"name": "str"
+						},
+						"triageStoreId": {
+							"name": "str"
+						},
+						"roleAssignments": [
+							{
+								"groupId": {
+									"displayName": "str",
+									"domain": {
+										"name": "str"
+									},
+									"name": "str"
+								},
+								"roleAssignmentType": "str",
+								"roleId": {
+									"name": "str"
+								},
+								"type": "str",
+								"username": "str"
+							}
+						],
+						"analysisVersionOverride": "str",
+						"summaryExpirationDays": 0,
+						"pluginVersionOverride": "str",
+						"versionMismatchMessage": "str",
+						"enableDesktopAnalysis": true,
+						"ownerAssignmentOption": "str"
+					}
+				],
+				"streamLinks": [
+					{
+						"autoDeleteOnExpiry": true,
+						"componentMapId": {
+							"name": "str"
+						},
+						"description": "str",
+						"id": {
+							"name": "str"
+						},
+						"language": "str",
+						"outdated": true,
+						"primaryProjectId": {
+							"name": "str"
+						},
+						"triageStoreId": {
+							"name": "str"
+						},
+						"roleAssignments": [
+							{
+								"groupId": {
+									"displayName": "str",
+									"domain": {
+										"name": "str"
+									},
+									"name": "str"
+								},
+								"roleAssignmentType": "str",
+								"roleId": {
+									"name": "str"
+								},
+								"type": "str",
+								"username": "str"
+							}
+						],
+						"analysisVersionOverride": "str",
+						"summaryExpirationDays": 0,
+						"pluginVersionOverride": "str",
+						"versionMismatchMessage": "str",
+						"enableDesktopAnalysis": true,
+						"ownerAssignmentOption": "str"
+					}
+				],
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"dateCreated": "XMLGregorianCalendar",
+				"dateModified": "XMLGregorianCalendar",
+				"description": "str",
+				"id": {
+					"name": "str"
+				},
+				"projectKey": 0,
+				"userCreated": "str",
+				"userModified": "str"
+			}
+		]
+	},
+	"GetGroup": {
+		"groupId": {
+			"displayName": "str",
+			"domain": {
+				"name": "str"
+			},
+			"name": "str"
+		}
+	},
+	"GetGroupResponse": {
+		"_return": {
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"local": true,
+			"name": {
+				"displayName": "str",
+				"domain": {
+					"name": "str"
+				},
+				"name": "str"
+			},
+			"syncEnabled": true
+		}
+	},
+	"GetGroups": {
+		"filterSpec": {
+			"ldap": true,
+			"namePattern": "str",
+			"projectIdDataObj": {
+				"name": "str"
+			},
+			"userList": [
+				{
+					"QUEUED": "str",
+					"RUNNING": "str",
+					"SUCCEEDED": "str",
+					"FAILED": "str"
+				}
+			]
+		},
+		"pageSpec": {
+			"pageSize": 0,
+			"sortAscending": true,
+			"sortField": "str",
+			"startIndex": 0
+		}
+	},
+	"GetGroupsResponse": {
+		"_return": {
+			"groups": [
+				{
+					"roleAssignments": [
+						{
+							"groupId": {
+								"displayName": "str",
+								"domain": {
+									"name": "str"
+								},
+								"name": "str"
+							},
+							"roleAssignmentType": "str",
+							"roleId": {
+								"name": "str"
+							},
+							"type": "str",
+							"username": "str"
+						}
+					],
+					"local": true,
+					"name": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"syncEnabled": true
+				}
+			],
+			"totalNumberOfRecords": 0
+		}
+	},
+	"GetLastUpdateTimes": {},
+	"GetLastUpdateTimesResponse": {
+		"_return": [
+			{
+				"featureName": "str",
+				"lastUpdateDate": "XMLGregorianCalendar"
+			}
+		]
+	},
+	"GetLdapServerDomains": {},
+	"GetLdapServerDomainsResponse": {
+		"_return": [
+			{
+				"name": "str"
+			}
+		]
+	},
+	"GetLicenseConfiguration": {},
+	"GetLicenseConfigurationResponse": {
+		"_return": {
+			"customer": "str",
+			"expirationDate": "XMLGregorianCalendar",
+			"licenseEditionName": "str",
+			"loc": 0,
+			"locLimit": 0,
+			"userCount": 0,
+			"userLimit": "str"
+		}
+	},
+	"GetLicenseState": {},
+	"GetLicenseStateResponse": {
+		"_return": {
+			"desktopAnalysisEnabled": true
+		}
+	},
+	"GetLoggingConfiguration": {},
+	"GetLoggingConfigurationResponse": {
+		"_return": {
+			"accessControlLogging": true,
+			"backgroundLogging": true,
+			"commitLogging": true,
+			"configurationLogging": true,
+			"databaseLogging": true,
+			"frameworkLogging": true,
+			"internalLogging": true,
+			"notificationLogging": true,
+			"performanceLogging": true,
+			"policyManagerLogging": true,
+			"remoteConfigLogging": true,
+			"requestPerformanceLogging": true,
+			"skeletonizationLogging": true,
+			"testAdvisorLogging": true,
+			"triageLogging": true,
+			"triageSynchLogging": true,
+			"webLogging": true,
+			"webServicesLogging": true
+		}
+	},
+	"GetMessageOfTheDay": {},
+	"GetMessageOfTheDayResponse": {
+		"_return": "str"
+	},
+	"GetOutputFileForSnapshot": {
+		"snapshotId": {
+			"id": 0
+		},
+		"fileName": "str"
+	},
+	"GetOutputFileForSnapshotResponse": {
+		"_return": {
+			"contents": "byte[]",
+			"name": "str"
+		}
+	},
+	"GetProjects": {
+		"filterSpec": {
+			"descriptionPattern": "str",
+			"includeChildren": true,
+			"includeStreams": true,
+			"namePattern": "str"
+		}
+	},
+	"GetProjectsResponse": {
+		"_return": [
+			{
+				"streams": [
+					{
+						"autoDeleteOnExpiry": true,
+						"componentMapId": {
+							"name": "str"
+						},
+						"description": "str",
+						"id": {
+							"name": "str"
+						},
+						"language": "str",
+						"outdated": true,
+						"primaryProjectId": {
+							"name": "str"
+						},
+						"triageStoreId": {
+							"name": "str"
+						},
+						"roleAssignments": [
+							{
+								"groupId": {
+									"displayName": "str",
+									"domain": {
+										"name": "str"
+									},
+									"name": "str"
+								},
+								"roleAssignmentType": "str",
+								"roleId": {
+									"name": "str"
+								},
+								"type": "str",
+								"username": "str"
+							}
+						],
+						"analysisVersionOverride": "str",
+						"summaryExpirationDays": 0,
+						"pluginVersionOverride": "str",
+						"versionMismatchMessage": "str",
+						"enableDesktopAnalysis": true,
+						"ownerAssignmentOption": "str"
+					}
+				],
+				"streamLinks": [
+					{
+						"autoDeleteOnExpiry": true,
+						"componentMapId": {
+							"name": "str"
+						},
+						"description": "str",
+						"id": {
+							"name": "str"
+						},
+						"language": "str",
+						"outdated": true,
+						"primaryProjectId": {
+							"name": "str"
+						},
+						"triageStoreId": {
+							"name": "str"
+						},
+						"roleAssignments": [
+							{
+								"groupId": {
+									"displayName": "str",
+									"domain": {
+										"name": "str"
+									},
+									"name": "str"
+								},
+								"roleAssignmentType": "str",
+								"roleId": {
+									"name": "str"
+								},
+								"type": "str",
+								"username": "str"
+							}
+						],
+						"analysisVersionOverride": "str",
+						"summaryExpirationDays": 0,
+						"pluginVersionOverride": "str",
+						"versionMismatchMessage": "str",
+						"enableDesktopAnalysis": true,
+						"ownerAssignmentOption": "str"
+					}
+				],
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"dateCreated": "XMLGregorianCalendar",
+				"dateModified": "XMLGregorianCalendar",
+				"description": "str",
+				"id": {
+					"name": "str"
+				},
+				"projectKey": 0,
+				"userCreated": "str",
+				"userModified": "str"
+			}
+		]
+	},
+	"GetRole": {
+		"roleId": {
+			"name": "str"
+		}
+	},
+	"GetRoleResponse": {
+		"_return": {
+			"deletable": true,
+			"description": "str",
+			"editable": true,
+			"permissionDataObjs": [
+				{
+					"permissionValue": "str"
+				}
+			],
+			"roleId": {
+				"name": "str"
+			}
+		}
+	},
+	"GetServerTime": {},
+	"GetServerTimeResponse": {
+		"_return": "XMLGregorianCalendar"
+	},
+	"GetSignInConfiguration": {},
+	"GetSignInConfigurationResponse": {
+		"_return": {
+			"allowPasswordRecovery": true,
+			"authenticationMethod": "str",
+			"disableLocalPasswordAuth": true,
+			"enableLdapAuth": true,
+			"ldapUserAutoCreate": true,
+			"limitFailedSignIns": true,
+			"maxFailedSignInAttempts": 0,
+			"maxSessionIdleTime": 0,
+			"requireLdapGroupMembership": true
+		}
+	},
+	"GetSkeletonizationConfiguration": {},
+	"GetSkeletonizationConfigurationResponse": {
+		"_return": {
+			"daysBeforeSkeletonization": 0,
+			"fridayEnabled": true,
+			"minSnapshotsToKeep": 0,
+			"mondayEnabled": true,
+			"saturdayEnabled": true,
+			"sundayEnabled": true,
+			"thursdayEnabled": true,
+			"time": "str",
+			"tuesdayEnabled": true,
+			"wednesdayEnabled": true
+		}
+	},
+	"GetSnapshotInformation": {
+		"snapshotIds": [
+			{
+				"id": 0
+			}
+		]
+	},
+	"GetSnapshotInformationResponse": {
+		"_return": [
+			{
+				"analysisCommandLine": "str",
+				"analysisConfiguration": "str",
+				"analysisHost": "str",
+				"analysisIntermediateDir": "str",
+				"analysisInternalVersion": "str",
+				"analysisTime": 0,
+				"analysisVersion": "str",
+				"buildCommandLine": "str",
+				"buildConfiguration": "str",
+				"buildFailureCount": 0,
+				"buildHost": "str",
+				"buildIntermediateDir": "str",
+				"buildSuccessCount": 0,
+				"buildTime": 0,
+				"codeVersionDate": "XMLGregorianCalendar",
+				"commitUser": "str",
+				"dateCreated": "XMLGregorianCalendar",
+				"description": "str",
+				"enabledCheckers": [
+					{
+						"QUEUED": "str",
+						"RUNNING": "str",
+						"SUCCEEDED": "str",
+						"FAILED": "str"
+					}
+				],
+				"hasSummaries": true,
+				"impactHashVersion": 0,
+				"portableAnalysisSettings": "str",
+				"purgedOfDetails": true,
+				"snapshotId": {
+					"id": 0
+				},
+				"sourceVersion": "str",
+				"target": "str"
+			}
+		]
+	},
+	"GetSnapshotPurgeDetails": {},
+	"GetSnapshotPurgeDetailsResponse": {
+		"_return": {
+			"daysBeforeSkeletonization": 0,
+			"fridayEnabled": true,
+			"minSnapshotsToKeep": 0,
+			"mondayEnabled": true,
+			"saturdayEnabled": true,
+			"sundayEnabled": true,
+			"thursdayEnabled": true,
+			"timeOfDay": "str",
+			"tuesdayEnabled": true,
+			"wednesdayEnabled": true
+		}
+	},
+	"GetSnapshotsForStream": {
+		"streamId": {
+			"name": "str"
+		},
+		"filterSpec": {
+			"descriptionPattern": "str",
+			"endDate": "XMLGregorianCalendar",
+			"hasSummaries": true,
+			"lastBeforeCodeVersionDate": "XMLGregorianCalendar",
+			"startDate": "XMLGregorianCalendar",
+			"targetPattern": "str",
+			"versionPattern": "str"
+		}
+	},
+	"GetSnapshotsForStreamResponse": {
+		"_return": [
+			{
+				"id": 0
+			}
+		]
+	},
+	"GetStreams": {
+		"filterSpec": {
+			"languageList": [
+				{
+					"QUEUED": "str",
+					"RUNNING": "str",
+					"SUCCEEDED": "str",
+					"FAILED": "str"
+				}
+			],
+			"descriptionPattern": "str",
+			"namePattern": "str"
+		}
+	},
+	"GetStreamsResponse": {
+		"_return": [
+			{
+				"autoDeleteOnExpiry": true,
+				"componentMapId": {
+					"name": "str"
+				},
+				"description": "str",
+				"id": {
+					"name": "str"
+				},
+				"language": "str",
+				"outdated": true,
+				"primaryProjectId": {
+					"name": "str"
+				},
+				"triageStoreId": {
+					"name": "str"
+				},
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"analysisVersionOverride": "str",
+				"summaryExpirationDays": 0,
+				"pluginVersionOverride": "str",
+				"versionMismatchMessage": "str",
+				"enableDesktopAnalysis": true,
+				"ownerAssignmentOption": "str"
+			}
+		]
+	},
+	"GetSystemConfig": {},
+	"GetSystemConfigResponse": {
+		"_return": {
+			"commitPort": 0,
+			"dbDialect": "str",
+			"dbDriver": "str",
+			"issueExportUrl": "str",
+			"maindbName": "str",
+			"maindbUrl": "str",
+			"maindbUser": "str"
+		}
+	},
+	"GetTriageStores": {
+		"filterSpec": {
+			"descriptionPattern": "str",
+			"namePattern": "str"
+		}
+	},
+	"GetTriageStoresResponse": {
+		"_return": [
+			{
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"description": "str",
+				"id": {
+					"name": "str"
+				},
+				"streamIds": [
+					{
+						"name": "str"
+					}
+				]
+			}
+		]
+	},
+	"GetTypeNames": {},
+	"GetTypeNamesResponse": {
+		"_return": [
+			{
+				"displayName": "str",
+				"name": "str"
+			}
+		]
+	},
+	"GetUser": {
+		"username": "str"
+	},
+	"GetUserResponse": {
+		"_return": {
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"dateCreated": "XMLGregorianCalendar",
+			"dateDeleted": "XMLGregorianCalendar",
+			"dateModified": "XMLGregorianCalendar",
+			"disabled": true,
+			"domain": {
+				"name": "str"
+			},
+			"email": "str",
+			"familyName": "str",
+			"givenName": "str",
+			"groups": [
+				{
+					"QUEUED": "str",
+					"RUNNING": "str",
+					"SUCCEEDED": "str",
+					"FAILED": "str"
+				}
+			],
+			"lastLogin": "XMLGregorianCalendar",
+			"local": true,
+			"locale": "str",
+			"locked": true,
+			"passwordChanged": "XMLGregorianCalendar",
+			"superUser": true,
+			"userCreated": "str",
+			"userDeleted": "str",
+			"userModified": "str",
+			"username": "str"
+		}
+	},
+	"GetUsers": {
+		"filterSpec": {
+			"assignable": true,
+			"disabled": true,
+			"groupsList": [
+				{
+					"QUEUED": "str",
+					"RUNNING": "str",
+					"SUCCEEDED": "str",
+					"FAILED": "str"
+				}
+			],
+			"includeDetails": true,
+			"ldap": true,
+			"locked": true,
+			"namePattern": "str",
+			"projectIdDataObj": {
+				"name": "str"
+			},
+			"startId": 0
+		},
+		"pageSpec": {
+			"pageSize": 0,
+			"sortAscending": true,
+			"sortField": "str",
+			"startIndex": 0
+		}
+	},
+	"GetUsersResponse": {
+		"_return": {
+			"users": [
+				{
+					"roleAssignments": [
+						{
+							"groupId": {
+								"displayName": "str",
+								"domain": {
+									"name": "str"
+								},
+								"name": "str"
+							},
+							"roleAssignmentType": "str",
+							"roleId": {
+								"name": "str"
+							},
+							"type": "str",
+							"username": "str"
+						}
+					],
+					"dateCreated": "XMLGregorianCalendar",
+					"dateDeleted": "XMLGregorianCalendar",
+					"dateModified": "XMLGregorianCalendar",
+					"disabled": true,
+					"domain": {
+						"name": "str"
+					},
+					"email": "str",
+					"familyName": "str",
+					"givenName": "str",
+					"groups": [
+						{
+							"QUEUED": "str",
+							"RUNNING": "str",
+							"SUCCEEDED": "str",
+							"FAILED": "str"
+						}
+					],
+					"lastLogin": "XMLGregorianCalendar",
+					"local": true,
+					"locale": "str",
+					"locked": true,
+					"passwordChanged": "XMLGregorianCalendar",
+					"superUser": true,
+					"userCreated": "str",
+					"userDeleted": "str",
+					"userModified": "str",
+					"username": "str"
+				}
+			],
+			"totalNumberOfRecords": 0
+		}
+	},
+	"GetVersion": {},
+	"GetVersionResponse": {
+		"_return": {
+			"externalVersion": "str",
+			"internalVersion": "str"
+		}
+	},
+	"GroupDataObj": {
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"local": true,
+		"name": {
+			"displayName": "str",
+			"domain": {
+				"name": "str"
+			},
+			"name": "str"
+		},
+		"syncEnabled": true
+	},
+	"GroupFilterSpecDataObj": {
+		"ldap": true,
+		"namePattern": "str",
+		"projectIdDataObj": {
+			"name": "str"
+		},
+		"userList": [
+			{
+				"QUEUED": "str",
+				"RUNNING": "str",
+				"SUCCEEDED": "str",
+				"FAILED": "str"
+			}
+		]
+	},
+	"GroupIdDataObj": {
+		"displayName": "str",
+		"domain": {
+			"name": "str"
+		},
+		"name": "str"
+	},
+	"GroupsPageDataObj": {
+		"groups": [
+			{
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"local": true,
+				"name": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"syncEnabled": true
+			}
+		],
+		"totalNumberOfRecords": 0
+	},
+	"GroupSpecDataObj": {
+		"clearRoles": true,
+		"domain": {
+			"name": "str"
+		},
+		"local": true,
+		"name": "str",
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"syncEnabled": true
+	},
+	"ImportLicense": {
+		"licenseSpecDataObj": {
+			"licenseDataFile": "str"
+		}
+	},
+	"ImportLicenseResponse": {},
+	"LdapConfigurationDataObj": {
+		"anonymousBind": true,
+		"baseDN": "str",
+		"bindName": "str",
+		"bindPassword": "str",
+		"groupFilter": "str",
+		"groupFullName": true,
+		"groupMember": "str",
+		"groupName": "str",
+		"groupObjectClass": "str",
+		"groupSearchBase": "str",
+		"primary": true,
+		"secureConnection": true,
+		"serverDomain": "str",
+		"serverDomainIdDataObj": {
+			"name": "str"
+		},
+		"serverPort": 0,
+		"tlsEnabled": true,
+		"userEmail": "str",
+		"userFirstName": "str",
+		"userLastName": "str",
+		"userName": "str",
+		"userObjectClass": "str",
+		"userSearchBase": "str"
+	},
+	"LdapConfigurationSpecDataObj": {
+		"anonymousBind": true,
+		"baseDN": "str",
+		"bindName": "str",
+		"bindPassword": "str",
+		"displayName": "str",
+		"groupFilter": "str",
+		"groupFullName": true,
+		"groupMember": "str",
+		"groupName": "str",
+		"groupObjectClass": "str",
+		"groupSearchBase": "str",
+		"primary": true,
+		"secureConnection": true,
+		"serverDomain": "str",
+		"serverPort": 0,
+		"tlsEnabled": true,
+		"userEmail": "str",
+		"userFirstName": "str",
+		"userLastName": "str",
+		"userName": "str",
+		"userObjectClass": "str",
+		"userSearchBase": "str"
+	},
+	"LicenseDataObj": {
+		"customer": "str",
+		"expirationDate": "XMLGregorianCalendar",
+		"licenseEditionName": "str",
+		"loc": 0,
+		"locLimit": 0,
+		"userCount": 0,
+		"userLimit": "str"
+	},
+	"LicenseSpecDataObj": {
+		"licenseDataFile": "str"
+	},
+	"LicenseStateDataObj": {
+		"desktopAnalysisEnabled": true
+	},
+	"LocalizedValueDataObj": {
+		"displayName": "str",
+		"name": "str"
+	},
+	"LoggingConfigurationDataObj": {
+		"accessControlLogging": true,
+		"backgroundLogging": true,
+		"commitLogging": true,
+		"configurationLogging": true,
+		"databaseLogging": true,
+		"frameworkLogging": true,
+		"internalLogging": true,
+		"notificationLogging": true,
+		"performanceLogging": true,
+		"policyManagerLogging": true,
+		"remoteConfigLogging": true,
+		"requestPerformanceLogging": true,
+		"skeletonizationLogging": true,
+		"testAdvisorLogging": true,
+		"triageLogging": true,
+		"triageSynchLogging": true,
+		"webLogging": true,
+		"webServicesLogging": true
+	},
+	"MergeTriageStores": {
+		"srcTriageStoreIds": [
+			{
+				"name": "str"
+			}
+		],
+		"triageStoreId": {
+			"name": "str"
+		},
+		"deleteSourceStores": true,
+		"assignStreamsToTargetStore": true
+	},
+	"MergeTriageStoresResponse": {},
+	"Notify": {
+		"usernames": [
+			{
+				"QUEUED": "str",
+				"RUNNING": "str",
+				"SUCCEEDED": "str",
+				"FAILED": "str"
+			}
+		],
+		"subject": "str",
+		"message": "str"
+	},
+	"NotifyResponse": {
+		"_return": [
+			{
+				"QUEUED": "str",
+				"RUNNING": "str",
+				"SUCCEEDED": "str",
+				"FAILED": "str"
+			}
+		]
+	},
+	"OutputFileDataObj": {
+		"contents": "byte[]",
+		"name": "str"
+	},
+	"PageSpecDataObj": {
+		"pageSize": 0,
+		"sortAscending": true,
+		"sortField": "str",
+		"startIndex": 0
+	},
+	"PermissionDataObj": {
+		"permissionValue": "str"
+	},
+	"ProjectDataObj": {
+		"streams": [
+			{
+				"autoDeleteOnExpiry": true,
+				"componentMapId": {
+					"name": "str"
+				},
+				"description": "str",
+				"id": {
+					"name": "str"
+				},
+				"language": "str",
+				"outdated": true,
+				"primaryProjectId": {
+					"name": "str"
+				},
+				"triageStoreId": {
+					"name": "str"
+				},
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"analysisVersionOverride": "str",
+				"summaryExpirationDays": 0,
+				"pluginVersionOverride": "str",
+				"versionMismatchMessage": "str",
+				"enableDesktopAnalysis": true,
+				"ownerAssignmentOption": "str"
+			}
+		],
+		"streamLinks": [
+			{
+				"autoDeleteOnExpiry": true,
+				"componentMapId": {
+					"name": "str"
+				},
+				"description": "str",
+				"id": {
+					"name": "str"
+				},
+				"language": "str",
+				"outdated": true,
+				"primaryProjectId": {
+					"name": "str"
+				},
+				"triageStoreId": {
+					"name": "str"
+				},
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"analysisVersionOverride": "str",
+				"summaryExpirationDays": 0,
+				"pluginVersionOverride": "str",
+				"versionMismatchMessage": "str",
+				"enableDesktopAnalysis": true,
+				"ownerAssignmentOption": "str"
+			}
+		],
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"dateCreated": "XMLGregorianCalendar",
+		"dateModified": "XMLGregorianCalendar",
+		"description": "str",
+		"id": {
+			"name": "str"
+		},
+		"projectKey": 0,
+		"userCreated": "str",
+		"userModified": "str"
+	},
+	"ProjectFilterSpecDataObj": {
+		"descriptionPattern": "str",
+		"includeChildren": true,
+		"includeStreams": true,
+		"namePattern": "str"
+	},
+	"ProjectIdDataObj": {
+		"name": "str"
+	},
+	"ProjectSpecDataObj": {
+		"streams": [
+			{
+				"name": "str"
+			}
+		],
+		"streamLinks": [
+			{
+				"name": "str"
+			}
+		],
+		"description": "str",
+		"name": "str",
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		]
+	},
+	"RefreshLdapGroup": {
+		"groupId": {
+			"displayName": "str",
+			"domain": {
+				"name": "str"
+			},
+			"name": "str"
+		}
+	},
+	"RefreshLdapGroupResponse": {},
+	"RoleAssignmentDataObj": {
+		"groupId": {
+			"displayName": "str",
+			"domain": {
+				"name": "str"
+			},
+			"name": "str"
+		},
+		"roleAssignmentType": "str",
+		"roleId": {
+			"name": "str"
+		},
+		"type": "str",
+		"username": "str"
+	},
+	"RoleDataObj": {
+		"deletable": true,
+		"description": "str",
+		"editable": true,
+		"permissionDataObjs": [
+			{
+				"permissionValue": "str"
+			}
+		],
+		"roleId": {
+			"name": "str"
+		}
+	},
+	"RoleIdDataObj": {
+		"name": "str"
+	},
+	"RoleSpecDataObj": {
+		"deletable": true,
+		"description": "str",
+		"editable": true,
+		"name": "str",
+		"permissionDataObjs": [
+			{
+				"permissionValue": "str"
+			}
+		]
+	},
+	"ServerDomainIdDataObj": {
+		"name": "str"
+	},
+	"SetAcceptingNewCommits": {
+		"acceptNewCommits": true
+	},
+	"SetAcceptingNewCommitsResponse": {},
+	"SetArchitectureAnalysisConfiguration": {
+		"architectureAnalysisConfiguration": "str"
+	},
+	"SetArchitectureAnalysisConfigurationResponse": {},
+	"SetBackupConfiguration": {
+		"backupConfigurationDataObj": {
+			"backupLocation": "str",
+			"backupTime": "str",
+			"fridayEnabled": true,
+			"mondayEnabled": true,
+			"saturdayEnabled": true,
+			"sundayEnabled": true,
+			"thursdayEnabled": true,
+			"tuesdayEnabled": true,
+			"wednesdayEnabled": true
+		}
+	},
+	"SetBackupConfigurationResponse": {},
+	"SetLoggingConfiguration": {
+		"loggingConfigurationDataObj": {
+			"accessControlLogging": true,
+			"backgroundLogging": true,
+			"commitLogging": true,
+			"configurationLogging": true,
+			"databaseLogging": true,
+			"frameworkLogging": true,
+			"internalLogging": true,
+			"notificationLogging": true,
+			"performanceLogging": true,
+			"policyManagerLogging": true,
+			"remoteConfigLogging": true,
+			"requestPerformanceLogging": true,
+			"skeletonizationLogging": true,
+			"testAdvisorLogging": true,
+			"triageLogging": true,
+			"triageSynchLogging": true,
+			"webLogging": true,
+			"webServicesLogging": true
+		}
+	},
+	"SetLoggingConfigurationResponse": {},
+	"SetMessageOfTheDay": {
+		"message": "str"
+	},
+	"SetMessageOfTheDayResponse": {},
+	"SetSkeletonizationConfiguration": {
+		"skeletonizationConfigurationDataObj": {
+			"daysBeforeSkeletonization": 0,
+			"fridayEnabled": true,
+			"minSnapshotsToKeep": 0,
+			"mondayEnabled": true,
+			"saturdayEnabled": true,
+			"sundayEnabled": true,
+			"thursdayEnabled": true,
+			"time": "str",
+			"tuesdayEnabled": true,
+			"wednesdayEnabled": true
+		}
+	},
+	"SetSkeletonizationConfigurationResponse": {},
+	"SetSnapshotPurgeDetails": {
+		"purgeDetailsSpec": {
+			"daysBeforeSkeletonization": 0,
+			"fridayEnabled": true,
+			"minSnapshotsToKeep": 0,
+			"mondayEnabled": true,
+			"saturdayEnabled": true,
+			"sundayEnabled": true,
+			"thursdayEnabled": true,
+			"timeOfDay": "str",
+			"tuesdayEnabled": true,
+			"wednesdayEnabled": true
+		}
+	},
+	"SetSnapshotPurgeDetailsResponse": {},
+	"SignInSettingsDataObj": {
+		"allowPasswordRecovery": true,
+		"authenticationMethod": "str",
+		"disableLocalPasswordAuth": true,
+		"enableLdapAuth": true,
+		"ldapUserAutoCreate": true,
+		"limitFailedSignIns": true,
+		"maxFailedSignInAttempts": 0,
+		"maxSessionIdleTime": 0,
+		"requireLdapGroupMembership": true
+	},
+	"SkeletonizationConfigurationDataObj": {
+		"daysBeforeSkeletonization": 0,
+		"fridayEnabled": true,
+		"minSnapshotsToKeep": 0,
+		"mondayEnabled": true,
+		"saturdayEnabled": true,
+		"sundayEnabled": true,
+		"thursdayEnabled": true,
+		"time": "str",
+		"tuesdayEnabled": true,
+		"wednesdayEnabled": true
+	},
+	"SnapshotFilterSpecDataObj": {
+		"descriptionPattern": "str",
+		"endDate": "XMLGregorianCalendar",
+		"hasSummaries": true,
+		"lastBeforeCodeVersionDate": "XMLGregorianCalendar",
+		"startDate": "XMLGregorianCalendar",
+		"targetPattern": "str",
+		"versionPattern": "str"
+	},
+	"SnapshotIdDataObj": {
+		"id": 0
+	},
+	"SnapshotInfoDataObj": {
+		"analysisCommandLine": "str",
+		"analysisConfiguration": "str",
+		"analysisHost": "str",
+		"analysisIntermediateDir": "str",
+		"analysisInternalVersion": "str",
+		"analysisTime": 0,
+		"analysisVersion": "str",
+		"buildCommandLine": "str",
+		"buildConfiguration": "str",
+		"buildFailureCount": 0,
+		"buildHost": "str",
+		"buildIntermediateDir": "str",
+		"buildSuccessCount": 0,
+		"buildTime": 0,
+		"codeVersionDate": "XMLGregorianCalendar",
+		"commitUser": "str",
+		"dateCreated": "XMLGregorianCalendar",
+		"description": "str",
+		"enabledCheckers": [
+			{
+				"QUEUED": "str",
+				"RUNNING": "str",
+				"SUCCEEDED": "str",
+				"FAILED": "str"
+			}
+		],
+		"hasSummaries": true,
+		"impactHashVersion": 0,
+		"portableAnalysisSettings": "str",
+		"purgedOfDetails": true,
+		"snapshotId": {
+			"id": 0
+		},
+		"sourceVersion": "str",
+		"target": "str"
+	},
+	"SnapshotPurgeDetailsObj": {
+		"daysBeforeSkeletonization": 0,
+		"fridayEnabled": true,
+		"minSnapshotsToKeep": 0,
+		"mondayEnabled": true,
+		"saturdayEnabled": true,
+		"sundayEnabled": true,
+		"thursdayEnabled": true,
+		"timeOfDay": "str",
+		"tuesdayEnabled": true,
+		"wednesdayEnabled": true
+	},
+	"StreamDataObj": {
+		"autoDeleteOnExpiry": true,
+		"componentMapId": {
+			"name": "str"
+		},
+		"description": "str",
+		"id": {
+			"name": "str"
+		},
+		"language": "str",
+		"outdated": true,
+		"primaryProjectId": {
+			"name": "str"
+		},
+		"triageStoreId": {
+			"name": "str"
+		},
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"analysisVersionOverride": "str",
+		"summaryExpirationDays": 0,
+		"pluginVersionOverride": "str",
+		"versionMismatchMessage": "str",
+		"enableDesktopAnalysis": true,
+		"ownerAssignmentOption": "str"
+	},
+	"StreamFilterSpecDataObj": {
+		"languageList": [
+			{
+				"QUEUED": "str",
+				"RUNNING": "str",
+				"SUCCEEDED": "str",
+				"FAILED": "str"
+			}
+		],
+		"descriptionPattern": "str",
+		"namePattern": "str"
+	},
+	"StreamIdDataObj": {
+		"name": "str"
+	},
+	"StreamSpecDataObj": {
+		"allowCommitWithoutPassword": true,
+		"analysisVersionOverride": "str",
+		"autoDeleteOnExpiry": true,
+		"componentMapId": {
+			"name": "str"
+		},
+		"description": "str",
+		"enableDesktopAnalysis": true,
+		"language": "str",
+		"name": "str",
+		"outdated": true,
+		"ownerAssignmentOption": "str",
+		"pluginVersionOverride": "str",
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"summaryExpirationDays": 0,
+		"triageStoreId": {
+			"name": "str"
+		},
+		"versionMismatchMessage": "str"
+	},
+	"TriageStoreDataObj": {
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"description": "str",
+		"id": {
+			"name": "str"
+		},
+		"streamIds": [
+			{
+				"name": "str"
+			}
+		]
+	},
+	"TriageStoreFilterSpecDataObj": {
+		"descriptionPattern": "str",
+		"namePattern": "str"
+	},
+	"TriageStoreIdDataObj": {
+		"name": "str"
+	},
+	"TriageStoreSpecDataObj": {
+		"description": "str",
+		"name": "str",
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		]
+	},
+	"UpdateAttribute": {
+		"attributeDefinitionId": {
+			"name": "str"
+		},
+		"attributeDefinitionSpec": {
+			"attributeName": "str",
+			"attributeType": "str",
+			"attributeValueChangeSpec": {
+				"attributeValueIds": [
+					{
+						"name": "str"
+					}
+				],
+				"attributeValues": [
+					{
+						"deprecated": true,
+						"name": "str"
+					}
+				]
+			},
+			"defaultValue": "str",
+			"description": "str",
+			"showInTriage": true
+		}
+	},
+	"UpdateAttributeResponse": {},
+	"UpdateComponentMap": {
+		"componentMapId": {
+			"name": "str"
+		},
+		"componentMapSpec": {
+			"componentMapName": "str",
+			"componentPathRules": [
+				{
+					"componentId": {
+						"name": "str"
+					},
+					"pathPattern": "str"
+				}
+			],
+			"components": [
+				{
+					"roleAssignments": [
+						{
+							"groupId": {
+								"displayName": "str",
+								"domain": {
+									"name": "str"
+								},
+								"name": "str"
+							},
+							"roleAssignmentType": "str",
+							"roleId": {
+								"name": "str"
+							},
+							"type": "str",
+							"username": "str"
+						}
+					],
+					"componentId": {
+						"name": "str"
+					},
+					"subscribers": [
+						{
+							"QUEUED": "str",
+							"RUNNING": "str",
+							"SUCCEEDED": "str",
+							"FAILED": "str"
+						}
+					]
+				}
+			],
+			"defectRules": [
+				{
+					"componentId": {
+						"name": "str"
+					},
+					"defaultOwner": "str"
+				}
+			],
+			"description": "str",
+			"forceDeleteComponents": true
+		}
+	},
+	"UpdateComponentMapResponse": {},
+	"UpdateGroup": {
+		"groupId": {
+			"displayName": "str",
+			"domain": {
+				"name": "str"
+			},
+			"name": "str"
+		},
+		"groupSpec": {
+			"clearRoles": true,
+			"domain": {
+				"name": "str"
+			},
+			"local": true,
+			"name": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"syncEnabled": true
+		}
+	},
+	"UpdateGroupResponse": {},
+	"UpdateLdapConfiguration": {
+		"serverDomainIdDataObj": {
+			"name": "str"
+		},
+		"ldapConfigurationSpec": {
+			"anonymousBind": true,
+			"baseDN": "str",
+			"bindName": "str",
+			"bindPassword": "str",
+			"displayName": "str",
+			"groupFilter": "str",
+			"groupFullName": true,
+			"groupMember": "str",
+			"groupName": "str",
+			"groupObjectClass": "str",
+			"groupSearchBase": "str",
+			"primary": true,
+			"secureConnection": true,
+			"serverDomain": "str",
+			"serverPort": 0,
+			"tlsEnabled": true,
+			"userEmail": "str",
+			"userFirstName": "str",
+			"userLastName": "str",
+			"userName": "str",
+			"userObjectClass": "str",
+			"userSearchBase": "str"
+		}
+	},
+	"UpdateLdapConfigurationResponse": {},
+	"UpdateProject": {
+		"projectId": {
+			"name": "str"
+		},
+		"projectSpec": {
+			"streams": [
+				{
+					"name": "str"
+				}
+			],
+			"streamLinks": [
+				{
+					"name": "str"
+				}
+			],
+			"description": "str",
+			"name": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			]
+		}
+	},
+	"UpdateProjectResponse": {},
+	"UpdateRole": {
+		"roleId": {
+			"name": "str"
+		},
+		"roleSpec": {
+			"deletable": true,
+			"description": "str",
+			"editable": true,
+			"name": "str",
+			"permissionDataObjs": [
+				{
+					"permissionValue": "str"
+				}
+			]
+		}
+	},
+	"UpdateRoleResponse": {},
+	"UpdateSignInConfiguration": {
+		"signInSettingsDataObj": {
+			"allowPasswordRecovery": true,
+			"authenticationMethod": "str",
+			"disableLocalPasswordAuth": true,
+			"enableLdapAuth": true,
+			"ldapUserAutoCreate": true,
+			"limitFailedSignIns": true,
+			"maxFailedSignInAttempts": 0,
+			"maxSessionIdleTime": 0,
+			"requireLdapGroupMembership": true
+		}
+	},
+	"UpdateSignInConfigurationResponse": {},
+	"UpdateSnapshotInfo": {
+		"snapshotId": {
+			"id": 0
+		},
+		"snapshotData": {
+			"analysisCommandLine": "str",
+			"analysisConfiguration": "str",
+			"analysisHost": "str",
+			"analysisIntermediateDir": "str",
+			"analysisInternalVersion": "str",
+			"analysisTime": 0,
+			"analysisVersion": "str",
+			"buildCommandLine": "str",
+			"buildConfiguration": "str",
+			"buildFailureCount": 0,
+			"buildHost": "str",
+			"buildIntermediateDir": "str",
+			"buildSuccessCount": 0,
+			"buildTime": 0,
+			"codeVersionDate": "XMLGregorianCalendar",
+			"commitUser": "str",
+			"dateCreated": "XMLGregorianCalendar",
+			"description": "str",
+			"enabledCheckers": [
+				{
+					"QUEUED": "str",
+					"RUNNING": "str",
+					"SUCCEEDED": "str",
+					"FAILED": "str"
+				}
+			],
+			"hasSummaries": true,
+			"impactHashVersion": 0,
+			"portableAnalysisSettings": "str",
+			"purgedOfDetails": true,
+			"snapshotId": {
+				"id": 0
+			},
+			"sourceVersion": "str",
+			"target": "str"
+		}
+	},
+	"UpdateSnapshotInfoResponse": {},
+	"UpdateStream": {
+		"streamId": {
+			"name": "str"
+		},
+		"streamSpec": {
+			"allowCommitWithoutPassword": true,
+			"analysisVersionOverride": "str",
+			"autoDeleteOnExpiry": true,
+			"componentMapId": {
+				"name": "str"
+			},
+			"description": "str",
+			"enableDesktopAnalysis": true,
+			"language": "str",
+			"name": "str",
+			"outdated": true,
+			"ownerAssignmentOption": "str",
+			"pluginVersionOverride": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"summaryExpirationDays": 0,
+			"triageStoreId": {
+				"name": "str"
+			},
+			"versionMismatchMessage": "str"
+		}
+	},
+	"UpdateStreamResponse": {},
+	"UpdateTriageStore": {
+		"triageStoreId": {
+			"name": "str"
+		},
+		"triageStoreSpec": {
+			"description": "str",
+			"name": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			]
+		}
+	},
+	"UpdateTriageStoreResponse": {},
+	"UpdateUser": {
+		"username": "str",
+		"userSpec": {
+			"clearRoles": true,
+			"disabled": true,
+			"domain": {
+				"name": "str"
+			},
+			"email": "str",
+			"familyName": "str",
+			"givenName": "str",
+			"groupNames": [
+				{
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				}
+			],
+			"local": true,
+			"locale": "str",
+			"locked": true,
+			"password": "str",
+			"roleAssignments": [
+				{
+					"groupId": {
+						"displayName": "str",
+						"domain": {
+							"name": "str"
+						},
+						"name": "str"
+					},
+					"roleAssignmentType": "str",
+					"roleId": {
+						"name": "str"
+					},
+					"type": "str",
+					"username": "str"
+				}
+			],
+			"username": "str"
+		}
+	},
+	"UpdateUserResponse": {},
+	"UserDataObj": {
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"dateCreated": "XMLGregorianCalendar",
+		"dateDeleted": "XMLGregorianCalendar",
+		"dateModified": "XMLGregorianCalendar",
+		"disabled": true,
+		"domain": {
+			"name": "str"
+		},
+		"email": "str",
+		"familyName": "str",
+		"givenName": "str",
+		"groups": [
+			{
+				"QUEUED": "str",
+				"RUNNING": "str",
+				"SUCCEEDED": "str",
+				"FAILED": "str"
+			}
+		],
+		"lastLogin": "XMLGregorianCalendar",
+		"local": true,
+		"locale": "str",
+		"locked": true,
+		"passwordChanged": "XMLGregorianCalendar",
+		"superUser": true,
+		"userCreated": "str",
+		"userDeleted": "str",
+		"userModified": "str",
+		"username": "str"
+	},
+	"UserFilterSpecDataObj": {
+		"assignable": true,
+		"disabled": true,
+		"groupsList": [
+			{
+				"QUEUED": "str",
+				"RUNNING": "str",
+				"SUCCEEDED": "str",
+				"FAILED": "str"
+			}
+		],
+		"includeDetails": true,
+		"ldap": true,
+		"locked": true,
+		"namePattern": "str",
+		"projectIdDataObj": {
+			"name": "str"
+		},
+		"startId": 0
+	},
+	"UsersPageDataObj": {
+		"users": [
+			{
+				"roleAssignments": [
+					{
+						"groupId": {
+							"displayName": "str",
+							"domain": {
+								"name": "str"
+							},
+							"name": "str"
+						},
+						"roleAssignmentType": "str",
+						"roleId": {
+							"name": "str"
+						},
+						"type": "str",
+						"username": "str"
+					}
+				],
+				"dateCreated": "XMLGregorianCalendar",
+				"dateDeleted": "XMLGregorianCalendar",
+				"dateModified": "XMLGregorianCalendar",
+				"disabled": true,
+				"domain": {
+					"name": "str"
+				},
+				"email": "str",
+				"familyName": "str",
+				"givenName": "str",
+				"groups": [
+					{
+						"QUEUED": "str",
+						"RUNNING": "str",
+						"SUCCEEDED": "str",
+						"FAILED": "str"
+					}
+				],
+				"lastLogin": "XMLGregorianCalendar",
+				"local": true,
+				"locale": "str",
+				"locked": true,
+				"passwordChanged": "XMLGregorianCalendar",
+				"superUser": true,
+				"userCreated": "str",
+				"userDeleted": "str",
+				"userModified": "str",
+				"username": "str"
+			}
+		],
+		"totalNumberOfRecords": 0
+	},
+	"UserSpecDataObj": {
+		"clearRoles": true,
+		"disabled": true,
+		"domain": {
+			"name": "str"
+		},
+		"email": "str",
+		"familyName": "str",
+		"givenName": "str",
+		"groupNames": [
+			{
+				"displayName": "str",
+				"domain": {
+					"name": "str"
+				},
+				"name": "str"
+			}
+		],
+		"local": true,
+		"locale": "str",
+		"locked": true,
+		"password": "str",
+		"roleAssignments": [
+			{
+				"groupId": {
+					"displayName": "str",
+					"domain": {
+						"name": "str"
+					},
+					"name": "str"
+				},
+				"roleAssignmentType": "str",
+				"roleId": {
+					"name": "str"
+				},
+				"type": "str",
+				"username": "str"
+			}
+		],
+		"username": "str"
+	},
+	"VersionDataObj": {
+		"externalVersion": "str",
+		"internalVersion": "str"
+	}
+}
